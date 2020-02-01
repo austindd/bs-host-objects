@@ -1,0 +1,35 @@
+{
+  "name": "bs-host-objects",
+  "version": "0.0.1",
+  "description": "ReasonML type bindings to the standard global objects provided by most JS runtimes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austindd/bs-host-objects.git"
+  },
+  "keywords": [
+    "reasonml",
+    "ocaml",
+    "js",
+    "javascript",
+    "host",
+    "objects",
+    "runtime",
+    "global",
+    "type",
+    "types",
+    "bindings"
+  ],
+  "author": "austindd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austindd/bs-host-objects/issues"
+  },
+  "homepage": "https://github.com/austindd/bs-host-objects#readme",
+  "dependencies": {
+    "bs-platform": "^7.0.1"
+  }
+}
