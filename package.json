@@ -4,6 +4,9 @@
   "description": "ReasonML type bindings to the standard global objects provided by most JS runtimes.",
   "main": "index.js",
   "scripts": {
+    "build": "npx bsb -make-world",
+    "clean": "npx bsb -clean-world",
+    "start": "npx bsb -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
