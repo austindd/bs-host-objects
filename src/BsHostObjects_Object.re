@@ -1,8 +1,8 @@
 
-module Impl = (T: {
+module Proto = (T: {
   type t('a);
   type constructor('a);
-  type prototype('a)
+  type prototype('a);
 }) => {
   [@bs.get] external prototype: T.t('a) => T.prototype('a) = "prototype";
   [@bs.get] external constructor: T.t('a) => T.constructor('a) = "constructor";
@@ -26,7 +26,7 @@ type prototype('a);
 type globalObject;
 [@bs.val] external globalObject: globalObject = "Object";
 
-include Impl({
+include Proto({
   type nonrec t('a) = t('a);
   type nonrec constructor('a) = constructor('a);
   type nonrec prototype('a) = prototype('a);
